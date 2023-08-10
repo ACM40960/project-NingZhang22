@@ -73,7 +73,7 @@ The method Archimede has the best efficiency. Integral-D and Integral-F also hav
 
 ![image](plot/comparison/comparison_time.jpeg)
 
-## 2.4 
+## 2.4 Simulation of 2D Circle versus 3D Sphere
 
 Not surprisingly, the method of Monte Carlo simulation in a 3D ball is higher than that in a 2D circle. On the other hand, the accuracies of the 2 simulation methods tend to be close as N grows.
 ![image](plot/comparison/comparison_time_2Dvs3D.jpeg)
