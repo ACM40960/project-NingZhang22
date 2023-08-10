@@ -41,6 +41,7 @@ The main estimating and comparing codes are under this directory.
 - EstimatingPI: Estimate PI and error bars (for Monte Carlo methods) using eight methods, and plot the estimating results. 
 - ComparingDiff: Compare the difference between estimated and actual PI for eight methods, and plot for the differences. 
 - ComparingTime: Choose the best three methods from the two previous steps, plot for the time consumptions. 
+- ComparingDimension: Compare the accuracies and time consumptions between the methods of 2D circle and 3D sphere (comparison between QuarterCircle and EighthSphere).
 
 # 2. Main Results
 
@@ -72,3 +73,10 @@ The method Archimede has the best efficiency. Integral-D and Integral-F also hav
 
 ![image](plot/comparison/comparison_time.jpeg)
 
+## 2.4 
+
+Not surprisingly, the method of Monte Carlo simulation in a 3D ball is higher than that in a 2D circle. On the other hand, the accuracies of the 2 simulation methods tend to be close as N grows.
+![image](plot/comparison/comparison_time_2Dvs3D.jpeg)
+![image](plot/comparison/comparison_diff_seed1.jpeg)
+![image](plot/comparison/comparison_diff_seed2.jpeg)
+![image](plot/comparison/comparison_diff_seed3.jpeg)
