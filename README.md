@@ -1,4 +1,4 @@
-The codes are for the school project. Eight different methods are used to estimate the value of PI. Also, sigma errors, accuracies and time consumptions are compared between these methods.  *N* refers to the number of sides for Non-Monte Carlo method and number of random samples for Monte Carlo methods here. 
+The codes are for the school project. Eight different methods are used to estimate the value of PI. Also, sigma errors, accuracies and time consumptions are compared among these methods.  *N* refers to the number of sides for Non-Monte Carlo method and number of random samples for Monte Carlo methods here. 
 
 # 1. Instruction of Directories
 
@@ -75,7 +75,7 @@ The method Archimede has the best efficiency. Integral-D and Integral-F also hav
 
 ## 2.4 Simulation of 2D Circle versus 3D Sphere
 
-Not surprisingly, the method of Monte Carlo simulation in a 3D ball is higher than that in a 2D circle. On the other hand, the accuracies of the 2 simulation methods tend to be close as N grows.
+Not surprisingly, the method of Monte Carlo simulation in a 3D ball is higher than that in a 2D circle. On the other hand, the accuracies of the 2 simulation methods tend to be close as N grows. Detailed differences of accuracies among different dimensions in Java can be further discussed. 
 ![image](plot/comparison/comparison_time_2Dvs3D.jpeg)
 ![image](plot/comparison/comparison_diff_seed1.jpeg)
 ![image](plot/comparison/comparison_diff_seed2.jpeg)
