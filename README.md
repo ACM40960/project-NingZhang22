@@ -1,4 +1,4 @@
-The codes are for the school project. Eight different methods are used to estimate the value of PI. Also, sigma errors, accuracies and time consumptions are compared among these methods.  *N* refers to the number of sides for Non-Monte Carlo method and number of random samples for Monte Carlo methods here. 
+The codes are for the school project. Eight different methods are used to estimate the value of PI. Also, sigma errors, accuracies and time consumptions are compared among these methods.  *N* represents the level of number of sides for Non-Monte Carlo method and number of random samples for Monte Carlo methods here. 
 
 # 1. Instruction of Directories
 
@@ -69,7 +69,7 @@ The three methods which has the closest estimation value to the actual PI are: A
 
 ## 2.3 Time Consumption
 
-The method Archimede has the best efficiency. Integral-D and Integral-F also have good efficiency when N<10e04. However, the consumptions for the two methods grow significantly as N get larger than 10e04. 
+The method Archimede has the best efficiency. It should be pointed out that the time complexity of the Archimedes algorithm used here is O(log(N)). Integral-D and Integral-F also have good efficiency when N<10e04. However, the consumptions for the two methods grow significantly as N get larger than 10e04. 
 
 ![image](plot/comparison/comparison_time.jpeg)
 
