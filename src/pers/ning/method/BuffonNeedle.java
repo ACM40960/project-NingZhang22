@@ -22,8 +22,8 @@ public class BuffonNeedle extends MonteCarlo {
 
         for (i=0;i<n;i++) {
             x = this.rand.nextDouble()*grid_size;
-            angle = Math.toRadians(this.rand.nextDouble()*180);
-            y1 = x + needle_length/2 * Math.sin(angle);
+            angle = Math.toRadians(this.rand.nextDouble()*180); // generate the random angle
+            y1 = x + needle_length/2 * Math.sin(angle); // here the needle_length is treated as the two times of the length
             y2 = x - needle_length/2 * Math.sin(angle);
 
             if ((y2 < 0 && y1 >= 0) || (y1<0 && y2>=0)) {
