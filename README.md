@@ -2,7 +2,7 @@ The codes are for the school project. Eight different methods are used to estima
 
 # 1. Instruction of Directories
 
-The estimation methods are written in Java classes. The instruction of directories under src is as follows:
+The estimation methods are written in Java classes. The directory 'plot' contains the plots of value estimation, accuracy and time consumption. The instruction of directories under src is as follows:
 
 ## calc:
 
@@ -55,7 +55,7 @@ The codes are run under the following environment:
 
 ## 2.1 Sigma Error
 
-In general, these methods perform well on variances. The sigma errors decline as Ns grow in most situations. However, for IntegralD (estimating Gamma(1/2) using integral), the sigma errors are too large that the error bars do not appear on the plot. The estimated value of PI from this method is unstable. 
+In general, these methods perform well on variances. The sigma errors decline as Ns grow in most situations. However, for IntegralD (estimating Gamma(1/2) using integral), the sigma errors are too large that the error bars do not appear on the plot. The estimated value of PI from this method is unstable. The plots below shows the unstable estimation values of method IntegralD. Also, the sigma errors here are so large that the error bars are out of scope. 
 
 ![image](plot/single_method/Integral-E/value_plot/Integral-E(seed=1).jpeg)
 
