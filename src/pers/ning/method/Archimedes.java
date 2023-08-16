@@ -18,7 +18,7 @@ public class Archimedes extends NonMonteCarlo {
     public double calc_pi(int n) {
         double polygon_edge_length_squared = 2.0;
         int polygon_sides = 4;
-        int niter = (int)Math.log(n);
+        int niter = (int)(Math.log(n/polygon_sides) / Math.log(2));
         int i;
         for (i=0;i<niter;i++) {
             polygon_edge_length_squared = 2 - 2 * Math.sqrt(1 - polygon_edge_length_squared / 4);
