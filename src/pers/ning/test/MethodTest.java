@@ -2,7 +2,7 @@ package pers.ning.test;
 
 import pers.ning.method.*;
 
-// this is a test file for different estimation methods
+// this file is for test work of estimation methods
 
 public class MethodTest {
     public static void main(String[] args) {
@@ -31,9 +31,9 @@ public class MethodTest {
         }
 
         // please make sure you create the directories before storing the plots
-        mc.value_plot(ts);
-        mc.diff_plot(ts);
-        mc.time_plot(ts);
+        mc.value_plot(ts); // path: plot/single_method/(method_name)/value_plot/(file_name)
+        mc.diff_plot(ts); // path: plot/single_method/(method_name)/diff_plot/(file_name)
+        mc.time_plot(ts); // path: plot/single_method/(method_name)/time_plot/(file_name)
 
         /*
         BuffonNeedle bf = new BuffonNeedle();
