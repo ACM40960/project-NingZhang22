@@ -80,3 +80,7 @@ Not surprisingly, the method of Monte Carlo simulation in a 3D ball is higher th
 ![image](plot/comparison/comparison_diff_seed1.jpeg)
 ![image](plot/comparison/comparison_diff_seed2.jpeg)
 ![image](plot/comparison/comparison_diff_seed3.jpeg)
+
+# Author
+
+The work is done by Ning Zhang (21212088). 
