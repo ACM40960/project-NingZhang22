@@ -2,7 +2,7 @@ package pers.ning.test;
 
 import pers.ning.method.*;
 
-// this file is for test work of estimation methods
+// this file is only for test work of estimation methods
 
 public class MethodTest {
     public static void main(String[] args) {
