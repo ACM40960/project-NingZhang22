@@ -30,6 +30,7 @@ public class MethodTest {
             System.out.println();
         }
 
+        // please make sure you create the directories before storing the plots
         mc.value_plot(ts);
         mc.diff_plot(ts);
         mc.time_plot(ts);
